@@ -1,0 +1,22 @@
+{
+  "name": "central-de-salas-agente",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Agente A2A da Central de Salas: host MCP por dentro, servidor A2A por fora",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "2.0.0",
+    "tsx": "4.23.13"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.1",
+    "typescript": "5.9.3"
+  }
+}
